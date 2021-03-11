@@ -1,0 +1,114 @@
+.left{
+    width: auto;
+    display: inline-block;
+    /* border:2px solid yellow; */
+   left:40px;
+    position: absolute;
+
+
+}
+
+.left img {
+
+    width: 75px;
+    height:75px;
+    filter: invert(100%);
+}
+.left div {
+    text-align: center;
+}
+
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+
+
+}
+.right{
+    width: auto;
+/* border:2px solid red; */
+position: absolute;
+display: inline-block;
+right: 34px;
+top:12px;
+
+}
+
+.btn{
+    color:white;
+    background: #000;
+    font-size: 15px;
+    border:yellow;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Langar', cursive;
+}
+
+.btn:hover{
+    background-color:grey;
+}
+
+.header{
+    margin-top: 10px;
+}
+
+.navbar{
+   display: inline-block;
+   
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding:20px 20px 20px 20px;
+   font-size: 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: grey;
+}
+
+.container{
+
+    margin: 52px 39px;
+    padding: 2px 2px;
+    /* border:2px solid white; */
+    width: 33%;
+    border-radius: 5px;
+
+}
+
+.form input{
+text-align: center;
+display: block;
+padding: 5px 37px;
+margin: 9px auto;
+width: 228px;
+border: 2px solid black;
+ border-radius: 8px;
+ font-family: 'Langar', cursive;
+
+}
+
+.container h1{
+    text-align:center;
+}
+
+.container .btn1{
+    display: block;
+    margin: auto;
+    width: 20%;
+    border: black;
+    border-radius: 5px;
+    font-family: 'Langar', cursive;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    
+}
